@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Mentor - Rock, Paper, Scissors solution
 
-## Getting Started
+This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### The challenge
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Users should be able to:
 
-## Learn More
+- View the optimal layout for the game depending on their device's screen size
+- Play Rock, Paper, Scissors against the computer
+- Maintain the state of the score after refreshing the browser _(optional)_
+- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![](./public/images/screenshot-desktop.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Links
 
-## Deploy on Vercel
+- Solution URL: [https://github.com/traez/rock-paper-scissors-game](https://github.com/traez/rock-paper-scissors-game)
+- Live Site URL: [https://rock-paper-scissors-game-traez.vercel.app](https://rock-paper-scissors-game-traez.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## My process
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+
+### What I learned
+
+1. I've long been able to think in JavaScript. But the biggest flex from recently completing multiple Next.js projects, is that I've also now learned to think in React. I'm no more lost. I'm now comfortable reasoning out solutions to problems using React logic.😊   
+
+### Continued development
+
+More Next.js projects. GraphQL projects too in the longer term.
+
+### Useful resources
+
+Stackoverflow  
+YouTube  
+Google  
+ChatGPT  
+
+## Author
+
+- Website - [Trae Zeeofor](https://github.com/traez)  
+- Twitter - [@trae_z](https://twitter.com/trae_z) 
+
+## Acknowledgments
+
+Happy Democracy Day Nigeria

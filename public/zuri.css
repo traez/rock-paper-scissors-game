@@ -23,46 +23,6 @@
   --radial-gradient-a: hsl(214, 47%, 23%); /*Background*/
   --radial-gradient-b: hsl(237, 49%, 15%); /*Background*/
 }
-.highlight {
-  background-color: var(--scissors-gradient-b);
-}
-.transition-background {
-  animation-name: backgroundTransition;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-
-@keyframes backgroundTransition {
-  0% {
-    background-color: white;
-  }
-  12% {
-    background-color: orange;
-  }
-  24% {
-    background-color: white;
-  }
-  36% {
-    background-color: orange;
-  }
-  48% {
-    background-color: white;
-  }
-  60% {
-    background-color: orange;
-  }
-  72% {
-    background-color: white;
-  }
-  84% {
-    background-color: orange;
-  }
-  100% {
-    background-color: white;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -122,7 +82,7 @@ aside {
   border-radius: 0.2rem;
   padding: 0.2rem;
 }
-#logo-div {
+#logo-div{
   width: 80px;
   position: "relative";
 }
@@ -211,7 +171,7 @@ article {
   justify-content: center;
   align-items: center;
 }
-#triangle-div {
+#triangle-div{
   width: 219px;
   position: relative;
 }
@@ -229,22 +189,19 @@ article {
   border-radius: 50%;
   position: relative;
 }
-.rps-divs:hover {
-  cursor: pointer;
-}
-#rock {
+#rock-div {
   position: absolute;
   top: -40px;
   left: -10px;
   border: 10px solid var(--rock-gradient-a);
 }
-#paper {
+#paper-div {
   position: absolute;
   top: -40px;
   right: -10px;
   border: 10px solid var(--paper-gradient-a);
 }
-#scissors {
+#scissors-div {
   position: absolute;
   bottom: -30px;
   left: 60px;
@@ -269,14 +226,14 @@ article {
   justify-content: space-around;
   align-items: center;
 }
-#robot-picked {
+#robot-picked{
   grid-area: top-right;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
 }
-.picked-div {
+.picked-div{
   width: 5.5rem;
   height: 5.5rem;
   display: flex;
@@ -287,31 +244,28 @@ article {
   border-radius: 50%;
   position: relative;
 }
-#you-icon {
+#you-icon{
   border: 10px solid var(--rock-gradient-a);
 }
-#robot-icon {
+#robot-icon{
   border: 10px solid var(--paper-gradient-a);
 }
-#result {
+#result{
   grid-area: bottom;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap:0.5rem;
 }
-strong {
+strong{
   font-size: 3rem;
 }
-button {
+button{
   padding: 0.5rem 2.5rem;
   border-radius: 0.5rem;
   letter-spacing: 0.1rem;
   font-weight: bolder;
-}
-button:hover {
-  cursor: pointer;
 }
 /* Footer */
 footer {
@@ -426,7 +380,7 @@ b {
   aside {
     padding: 0.5rem;
   }
-  #logo-div {
+  #logo-div{
     width: 100px;
   }
   .score {
@@ -442,23 +396,23 @@ b {
   #triangle-div {
     width: 282px;
   }
-  #rock {
+  #rock-div {
     top: -40px;
     left: -20px;
   }
-  #paper {
+  #paper-div {
     top: -40px;
     right: -20px;
   }
-  #scissors {
+  #scissors-div {
     bottom: -10px;
     left: 95px;
   }
-  .picked-div {
+  .picked-div{
     width: 6.5rem;
     height: 6.5rem;
   }
-  small {
+  small{
     font-size: 1.2rem;
   }
 }

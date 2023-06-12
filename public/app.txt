@@ -1,0 +1,87 @@
+-----------------------------------------------------------Main
+----------------------------------------------Header 3fr
+---------------------------------Aside
+------------------------Div logo
+------------------------Nav
+-----------------div 
+----------H2 Human Games won
+----------H3 Score
+-----------------div 
+----------H2 Robot Games won
+----------H3 Score
+---------------------------------ul
+------------------------div, li X 5
+---------------------------------ul
+------------------------div, li X 5
+----------------------------------------------Section 5fr
+----------------------------------Article
+----------------------------------H4
+----------------------------------------------Footer 1fr
+---------------------------------form
+------------------------h5
+------------------------h6
+---------------------------------Menu rules
+
+import { useRef } from "react";
+----------------------------------------------
+Layout holds header component with  statistics
+Layout holds footer component with MyInfo and Rules PopUp (conditional rendering and dialog)
+Page has 2 components A and B which are conditionally rendered based on state
+Component A, 3 decision circle
+component B result display
+component B has 3 child components conditionally displayed: you pick, the house, you win/lose
+----------------------------------------------
+https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH/hub
+
+Naija
+https://github.com/victoribironke/rock-paper-scissors-game
+https://nextjsrpsgame.netlify.app/
+
+Bounce
+https://github.com/noelys215/spock-game
+https://spock-game.vercel.app/
+----------------------------------------------
+Use conditional rendering with <dialog> for popup. leave in Layout
+
+const [isOpen, setIsOpen] = useState(false);
+
+const handleClick = () => {
+  setIsOpen(true);
+};
+
+const handleClose = () => {
+  setIsOpen(false);
+};
+
+return (
+  <div>
+    <button onClick={handleClick}>Open popup</button>
+    {isOpen && (
+      <dialog open={isOpen} onClose={handleClose}>
+        <h2>This is a popup</h2>
+        <button onClick={handleClose}>Close</button>
+      </dialog>
+    )}
+  </div>
+);
+----------------------------------------------
+container holds triangle image
+3 mini containers for images
+images set to object-fit: cover to maintain aspect ratio
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Maintain a specific aspect ratio (e.g., 4:3) by adjusting the padding-bottom value accordingly */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while covering the entire box */
+}
+----------------------------------------------

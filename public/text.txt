@@ -1,0 +1,2 @@
+ flash is a prop whose value is either false or true.
+ refactor code such that if flash is true .transition-background class is added to both instances of  <div className="score">, but if flash is false it is not added
